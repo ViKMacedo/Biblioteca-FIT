@@ -8,7 +8,7 @@ O projeto está dividido em três serviços principais orquestrados pelo **Docke
 
 1.  **Front-end**: Desenvolvido em **React (Vite)**, servido por um servidor **Nginx**.
 2.  **Back-end**: API REST construída com **Node.js (Express)** utilizando **ES Modules**.
-3.  **Base de Dados**: **MongoDB**, um banco NoSQL escalável e flexível.
+3.  **Dadabase**: **MongoDB**, um banco NoSQL escalável e flexível.
 
 ## 🚀 Tecnologias Utilizadas
 
