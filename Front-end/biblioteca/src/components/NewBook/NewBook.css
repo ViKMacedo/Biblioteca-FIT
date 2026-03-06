@@ -1,0 +1,98 @@
+.modal-content-cadastro {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  width: 700px;
+  max-width: 90%;
+  text-align: center;
+}
+
+.modal-content-cadastro h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.form-corpo {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.col-inputs {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.col-inputs input,
+.col-inputs textarea {
+  background: #fdfdfd;
+  border: 1px solid #eee;
+  padding: 12px;
+  border-radius: 8px;
+  outline: none;
+}
+
+.col-inputs textarea {
+  height: 150px;
+  resize: none;
+}
+
+.col-upload {
+  flex: 1;
+}
+
+.upload-placeholder {
+  border: 2px dashed #eee;
+  border-radius: 12px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  cursor: pointer;
+}
+
+.form-acoes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.btn-cancelar {
+  background: #ddd;
+  border: none;
+  padding: 12px 40px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.btn-salvar-modal {
+  background: #7ec7e9; /* Cor azul do botão salvar no Figma */
+  color: white;
+  border: none;
+  padding: 12px 40px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.preview-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Faz a imagem preencher o espaço sem distorcer */
+  border-radius: 8px;
+}
+
+.upload-placeholder {
+  width: 150px;
+  height: 200px;
+  border: 2px dashed #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Garante que a imagem respeite as bordas */
+}

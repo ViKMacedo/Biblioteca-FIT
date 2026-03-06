@@ -1,0 +1,165 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  width: 90%;
+  max-width: 900px;
+  padding: 40px;
+  border-radius: 12px;
+  position: relative;
+  display: flex;
+  gap: 40px;
+}
+
+.col-texto {
+  flex: 2;
+}
+.col-imagem {
+  flex: 1;
+}
+
+.col-imagem img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cabecalho-modal {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.btn-voltar {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 16px;
+}
+.btn-excluir-modal {
+  color: red;
+  font-weight: bold;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.descricao {
+  line-height: 1.6;
+  color: #444;
+  text-align: justify;
+}
+
+.form-edicao {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-edit-titulo {
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.textarea-edit-desc {
+  height: 200px;
+  font-family: inherit;
+  resize: vertical;
+  padding: 10px;
+}
+
+.confirm-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  border-radius: 20px;
+}
+
+.confirm-card {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  width: 450px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.confirm-card h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.confirm-card p {
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.confirm-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btn-cancelar-conf {
+  background: #e0e0e0;
+  border: none;
+  padding: 12px 40px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-excluir-conf {
+  background: #b00000;
+  color: white;
+  border: none;
+  padding: 12px 40px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-save-text {
+  color: green;
+  font-weight: bold;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.btn-edit-text {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.btn-excluir-modal-trigger {
+  color: red;
+  font-weight: bold;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
