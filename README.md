@@ -19,7 +19,7 @@ O projeto está dividido em três serviços principais orquestrados pelo **Docke
 ## 🛠️ Como Executar o Projeto
 
 ### Pré-requisitos
-* [Docker Desktop](https://www.docker.com/products/docker-desktop/) instalado e a correr.
+* [Docker Desktop](https://www.docker.com/products/docker-desktop/) instalado e funcionando.
 
 ### Passo a Passo
 1.  **Clonar o repositório:**
